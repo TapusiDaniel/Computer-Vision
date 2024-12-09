@@ -182,7 +182,7 @@ def main():
     base_path = current_dir / 'HW 4'
     output_path1 = base_path / 'panorama1_result.png'
     cv2.imwrite(str(output_path1), panorama1)
-    print("Panorama a fost creată cu succes!")
+    print("Succesfully created the panorama!")
 
 if __name__ == "__main__":
     main()
